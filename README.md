@@ -3,3 +3,6 @@ This is a collection of small projects covering different topics in A.I. and M.L
 
 - XGBoost with Amazon AWS SageMaker
 - Object detection with R-CNN: 
+
+## Other Resources:
+- Python Pandas/Numpy Cheat Sheet: Selection of interesting tools and tricks. By no means comprehensive but a good way to refresh comcepts. 
