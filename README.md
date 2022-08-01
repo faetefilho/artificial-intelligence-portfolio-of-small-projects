@@ -2,3 +2,4 @@
 This is a collection of small projects covering different topics in A.I. and M.L. to be used as a training resource for students. Some of the projects were collected from online resources and adapted, and some are original projects:
 
 - XGBoost with Amazon AWS SageMaker
+- Object detection with R-CNN: 
