@@ -3,7 +3,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 
 - XGBoost with Amazon AWS SageMaker: 
 - Object detection with R-CNN: This is the region proposal based CNN to identify/localize objects within an image. Uses VGG16
-- Object detection with YOLOv4: Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
+- [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 - [Anomaly detection of credit card transactions using autoencoders](/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
 ): We are trying to differentiate between normal and abnormal credit card transactions. The reconstruction error scores toguether with threshold are used to help us identify an anomaly. 
 
