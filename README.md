@@ -6,6 +6,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 - [Anomaly detection of credit card transactions using autoencoders](/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
 ): We are trying to differentiate between normal and abnormal credit card transactions. The reconstruction error scores toguether with threshold are used to help us identify an anomaly. 
+- [Sentiment Analysis on Twitter](/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thounsands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
 
 ## Other Resources:
 - Python Pandas/Numpy Cheat Sheet: Selection of interesting tools and tricks. By no means comprehensive but a good way to refresh concepts. 
