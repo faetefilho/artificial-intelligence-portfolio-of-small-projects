@@ -1,1 +1,226 @@
 
+//OPTIMIZATION:
+//In-Sample: 504 trading days
+//Out-Sample: 126 trading days
+//Variable:
+//Length= 1 to 10 inc of 1 
+//Parameters:
+//Net profit unanchored
+//Start date: 1/1/2008
+
+//Incubation started on: 1/1/2018
+
+
+variables:
+    P1 ( 0 ) ,
+    P2 ( 0 ) ;
+
+
+
+
+
+//  //// NetProfit Fitness 1 //// //
+
+inputs:
+    UseFileData( true ) ;
+variables:
+    UFD( UseFileData ) ;
+
+
+if GetAppInfo( aiOptimizing ) = 1 then
+    UFD = false ;
+
+if UFD and date <> date[ 1 ] then
+begin
+    if date >= 1100127 and date < 1100728 then
+    begin
+        P1 = 1 ;
+        P2 = 7 ;
+    end ;
+    if date >= 1100728 and date < 1110126 then
+    begin
+        P1 = 1 ;
+        P2 = 7 ;
+    end ;
+    if date >= 1110126 and date < 1110727 then
+    begin
+        P1 = 1 ;
+        P2 = 2 ;
+    end ;
+    if date >= 1110727 and date < 1120126 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1120126 and date < 1120726 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1120726 and date < 1130125 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1130125 and date < 1130726 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1130726 and date < 1140127 then
+    begin
+        P1 = 1 ;
+        P2 = 2 ;
+    end ;
+    if date >= 1140127 and date < 1140728 then
+    begin
+        P1 = 1 ;
+        P2 = 2 ;
+    end ;
+    if date >= 1140728 and date < 1150127 then
+    begin
+        P1 = 1 ;
+        P2 = 2 ;
+    end ;
+    if date >= 1150127 and date < 1150728 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1150728 and date < 1160127 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1160127 and date < 1160727 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1160727 and date < 1170126 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1170126 and date < 1170727 then
+    begin
+        P1 = 1 ;
+        P2 = 9 ;
+    end ;
+    if date >= 1170727 and date < 1180126 then
+    begin
+        P1 = 1 ;
+        P2 = 9 ;
+    end ;
+    if date >= 1180126 and date < 1180727 then
+    begin
+        P1 = 1 ;
+        P2 = 9 ;
+    end ;
+    if date >= 1180727 and date < 1190128 then
+    begin
+        P1 = 1 ;
+        P2 = 9 ;
+    end ;
+    if date >= 1190128 and date < 1190729 then
+    begin
+        P1 = 1 ;
+        P2 = 8 ;
+    end ;
+    if date >= 1190729 and date < 1200128 then
+    begin
+        P1 = 1 ;
+        P2 = 8 ;
+    end ;
+    if date >= 1200128 and date < 1200728 then
+    begin
+        P1 = 1 ;
+        P2 = 8 ;
+    end ;
+    if date >= 1200728 and date < 1210127 then
+    begin
+        P1 = 1 ;
+        P2 = 8 ;
+    end ;
+    if date >= 1210127 and date < 1210728 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1210728 and date < 1220126 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1220126 and date < 1220728 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+    if date >= 1220728 then
+    begin
+        P1 = 1 ;
+        P2 = 3 ;
+    end ;
+end ; // END UseFileData
+
+
+
+if date >= 1100127 then begin
+
+
+
+                      //To be varied from 1 to XL
+	vars: XL(10); //Total points per input, ie. 2 vars & 20 points: 20^2=400 iterations
+	vars: V1i(1),V1f(20),V1(1);
+	vars: V2i(1),V2f(20),V2(1);
+	//
+	vars: ncons(1);
+	//
+	Vars: PosHigh(0),PosLow(0),liqdays(0);
+	//***
+	variables: oBullishEngulfing( 0 ), oBearishEngulfing( 0 ) ;
+	//
+    V1i=5;    //desired initial value
+    V1f=10;    //Desired final value
+    
+    V1 = V1i + ( (V1f-V1i)*(P1-1) )/(XL-1);
+    V1 = Round(V1,0);    //Check if round function is needed
+    
+    V2i=2;    //desired initial value
+    V2f=5;    //Desired final value
+    
+    V2 = V2i + ( (V2f-V2i)*(P2-1) )/(XL-1);
+    //V2 = Round(V2,0);    //Check if round function is needed
+    
+    //strategy starts        
+    
+     
+    Value1 = C_BullEng_BearEng( V, oBullishEngulfing, oBearishEngulfing ) ;
+    Value2 = Openpositionprofit;
+    
+    if oBullishEngulfing = 1 then sellshort next bar at Market;
+    if oBearishEngulfing = 1 then buy Next Bar at Market; 
+    
+    If MarketPosition = 1 Then Begin
+        If BarsSinceEntry = 0 Then
+            PosHigh = High;
+        If High > PosHigh Then
+            PosHigh = High;
+        
+        If close<( PosHigh - AvgTrueRange(15) * V2) then sell Next Bar at market;
+    End;
+
+    If MarketPosition = -1 Then Begin
+        If BarsSinceEntry = 0 Then
+            PosLow = Low;
+        If Low < PosLow Then
+            PosLow = Low;
+            
+        If close>( PosLow+ AvgTrueRange(15) * V2) then Buytocover  Next Bar at market;
+    End;
+
+
+
+
+end;
