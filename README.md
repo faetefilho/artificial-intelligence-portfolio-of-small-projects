@@ -1,6 +1,7 @@
 # Artificial Intelligence and Machine Learning - A Compilation of Examples
 This is a collection of small projects covering different topics in A.I. and M.L. to be used as a training resource for students. Some of the projects were collected from online resources and adapted, and some are original projects:
 
+- [Deep Artificial Neural Network for Regression](/deep-ann-for-regression/deep-ann-for-regression.ipynb): This application focuses on ANN for determining housing prices on a large dataset. The ANN can be easily improved/modified for deeper and wider configuration.
 - XGBoost with Amazon AWS SageMaker: 
 - Object detection with R-CNN: This is the region proposal based CNN to identify/localize objects within an image. Uses VGG16
 - [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
