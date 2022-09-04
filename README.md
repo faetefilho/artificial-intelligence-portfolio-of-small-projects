@@ -2,7 +2,7 @@
 This is a collection of small projects covering different topics in A.I. and M.L. to be used as a training resource for students. Some of the projects were collected from online resources and adapted, and some are original projects:
 
 - [Deep Artificial Neural Network for Regression](/deep-ann-for-regression/deep_ann_for_regression.ipynb): This application focuses on ANN for determining housing prices on a large dataset. The ANN can be easily improved/modified for deeper and wider configuration.
-- XGBoost with Amazon AWS SageMaker: 
+- [XGBoost with Amazon AWS SageMaker](/xgboost-with-amazon-sagemaker/SageMakerTutorialRev001.ipynb): 
 - Object detection with R-CNN: This is the region proposal based CNN to identify/localize objects within an image. Uses VGG16
 - [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 - [Anomaly detection of credit card transactions using autoencoders](/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
