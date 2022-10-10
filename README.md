@@ -12,6 +12,9 @@ This is a collection of small projects covering different topics in A.I. and M.L
 ## Natural Language Processing
 - [Text Summarization with Transformers](/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
 
+## AWS SageMaker
+- [Linear Learner](/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programatically on AWS. 
+
 ## Software Development:
 - [Futures market algorithmic trading system](/algo-trading-system): This quite simple algo was developed in TradeStation EasyLanguage to trade Wheat futures 420 minutes time frame. It was developed in 2017 using walk-forward and monte carlo techniques, incubate in 2018, live for 2019-2020 and retired in 2021 when it hit its pre defined stop/retirement point.
 - [Game Developement with A.I. Integration](/rocket-booster-sandbox): A simple 3D game developed using Unit3D and coded on C# (.net) with two basic levels. This is a sandbox for testing A.I. integration using different techniques. Compiled for WebGL. 
