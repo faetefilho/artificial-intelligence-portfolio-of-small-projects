@@ -12,6 +12,9 @@ This is a collection of small projects covering different topics in A.I. and M.L
 ## Natural Language Processing
 - [Text Summarization with Transformers](/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
 
+## Computer Vision
+-[Simple ANN with PyTorch](/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
+
 ## AWS SageMaker
 - [Linear Learner](/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programatically on AWS. 
 - [XGBoost with Amazon AWS SageMaker](/xgboost-with-amazon-sagemaker/SageMakerTutorialRev001.ipynb): predcition task with XGBoost algorithm on an endpoint. 
