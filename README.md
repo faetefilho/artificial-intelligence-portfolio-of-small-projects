@@ -17,6 +17,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 
 ## AWS SageMaker
 - [Linear Learner](/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programatically on AWS. 
+- [Multiple Linear Regression with XGBoost](/mlr-with-sklearn): Determine life expectancy based on a number of features with a sizeable number of missing features. This uses SKlearn and XGBoost algorithm.
 - [XGBoost with Amazon AWS SageMaker](/xgboost-with-amazon-sagemaker/SageMakerTutorialRev001.ipynb): predcition task with XGBoost algorithm on an endpoint. 
 
 ## Software Development:
