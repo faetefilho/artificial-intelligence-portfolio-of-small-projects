@@ -18,7 +18,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 ## AWS SageMaker
 - [Linear Learner](/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programatically on AWS. 
 - [Multiple Linear Regression with XGBoost](/mlr-with-sklearn): Determine life expectancy based on a number of features with a sizeable number of missing features. This uses SKlearn and XGBoost algorithm.
-- [XGBoost with Amazon SageMaker](/xgboost-with-amazon-sagemaker/SageMakerTutorialRev001.ipynb): exploratory data analysis, model training, and deployment to an endpoint, and inference. This dataset contains missing data.  
+- [XGBoost with Amazon SageMaker](/xgboost-with-sagemaker/): exploratory data analysis, model training, and deployment to an endpoint, and inference. This dataset contains missing data.  
 
 ## Software Development:
 - [Futures market algorithmic trading system](/algo-trading-system): This quite simple algo was developed in TradeStation EasyLanguage to trade Wheat futures 420 minutes time frame. It was developed in 2017 using walk-forward and monte carlo techniques, incubate in 2018, live for 2019-2020 and retired in 2021 when it hit its pre defined stop/retirement point.
