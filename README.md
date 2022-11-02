@@ -9,6 +9,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Sentiment Analysis on Twitter](/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thounsands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
 - [Multiple Linear Regression with SKLearn](/multiple-linear-regression): Exploratory data analysis and linear regression on a dataset with multiple columns (numerical/categorical).
 - [Telecom Customers Churn Prediction](/machine-learning-classification/): Various classification algorithms are tested for this case study such as logistic regression, support vector machine, random forest, k-nearest neighbour and naive bayes. Performance comparison is evaluated for all five models.
+- [Credit Card Default Prediction](): 
 
 ## Natural Language Processing
 - [Text Summarization with Transformers](/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
@@ -21,6 +22,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Multiple Linear Regression with XGBoost](/mlr-with-sklearn): Determine life expectancy based on a number of features with a sizeable number of missing features. This uses SKlearn and XGBoost algorithm.
 - [XGBoost with Amazon SageMaker](/xgboost-with-sagemaker/): Exploratory data analysis, model training, and deployment to an endpoint, and inference. This dataset contains missing data.  
 - [Hyperparameter optimization with scikit-learn/SageMaker & XGBoost](/hyperparameter-optimization-for-xgboost-in-sk-learn): Ride sharing use prediction based on a number of parameters. Here we use gridsearch, random search, and bayesian optimization for hyperparameter selection of a XGBoost based model.
+- [Credit Card Default Prediction using SageMaker and XGBost]():
 
 ## Software Development:
 - [Futures market algorithmic trading system](/algo-trading-system): This quite simple algo was developed in TradeStation EasyLanguage to trade Wheat futures 420 minutes time frame. It was developed in 2017 using walk-forward and monte carlo techniques, incubate in 2018, live for 2019-2020 and retired in 2021 when it hit its pre defined stop/retirement point.
