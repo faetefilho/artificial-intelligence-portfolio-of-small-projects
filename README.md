@@ -6,7 +6,6 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 - [Anomaly detection of credit card transactions using autoencoders](/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
 ): We are trying to differentiate between normal and abnormal credit card transactions. The reconstruction error scores toguether with threshold are used to help us identify an anomaly. 
-- [Sentiment Analysis on Twitter](/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thounsands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
 - [Multiple Linear Regression with SKLearn](/multiple-linear-regression): Exploratory data analysis and linear regression on a dataset with multiple columns (numerical/categorical).
 - [Telecom Customers Churn Prediction](/machine-learning-classification/): Various classification algorithms are tested for this case study such as logistic regression, support vector machine, random forest, k-nearest neighbour and naive bayes. Performance comparison is evaluated for all five models.
 - [Credit Card Default Prediction](): 
@@ -14,6 +13,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 ## Natural Language Processing
 - [Text Summarization with Transformers](/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
 - [Sentiment Analysis (Transformers)](/sentiment_analysis_with_RoBERTa_large/sentiment_analysis_with_RoBERTa_large.ipynb): Analyze a number of different techniques to analyze sentiment. We look into Allen, Hugginface and OpenAI models for a number of easy and challenging tasks within sentiment analysis.
+- [Sentiment Analysis on Twitter](/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thounsands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
 
 ## Computer Vision
 -[Simple ANN with PyTorch](/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
