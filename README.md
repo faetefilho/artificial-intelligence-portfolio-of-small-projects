@@ -13,6 +13,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 
 ## Natural Language Processing
 - [Text Summarization with Transformers](/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
+- [Sentiment Analysis (Transformers)](/sentiment_analysis_with_RoBERTa_large/sentiment_analysis_with_RoBERTa_large.ipynb): Analyze a number of different techniques to analyze sentiment. We look into Allen, Hugginface and OpenAI models for a number of easy and challenging tasks within sentiment analysis.
 
 ## Computer Vision
 -[Simple ANN with PyTorch](/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
