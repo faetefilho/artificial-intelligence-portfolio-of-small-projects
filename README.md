@@ -3,7 +3,6 @@ This is a collection of small projects covering different topics in A.I. and M.L
 
 - [Deep Artificial Neural Network for Regression](/deep-ann-for-regression/deep_ann_for_regression.ipynb): This application focuses on ANN for determining housing prices on a large dataset. The ANN can be easily improved/modified for deeper and wider configuration.
 - Object detection with R-CNN: This is the region proposal based CNN to identify/localize objects within an image. Uses VGG16
-- [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 - [Anomaly detection of credit card transactions using autoencoders](/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
 ): We are trying to differentiate between normal and abnormal credit card transactions. The reconstruction error scores toguether with threshold are used to help us identify an anomaly. 
 - [Multiple Linear Regression with SKLearn](/multiple-linear-regression): Exploratory data analysis and linear regression on a dataset with multiple columns (numerical/categorical).
@@ -17,6 +16,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 
 ## Computer Vision
 -[Simple ANN with PyTorch](/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
+- [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 
 ## AWS SageMaker
 - [Linear Learner](/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programatically on AWS. 
