@@ -15,7 +15,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Sentiment Analysis on Twitter](/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thounsands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
 
 ## Computer Vision
--[Simple ANN with PyTorch](/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
+- [Simple ANN with PyTorch](/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
 - [Object detection with YOLOv4](/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 
 ## AWS SageMaker
