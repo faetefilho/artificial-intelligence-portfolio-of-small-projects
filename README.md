@@ -31,6 +31,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Java](/java): Collection of well commented programs written in Java
 - [C++14](/cpp14): Collection of C++ files and headers for several programs to demonstrate key concepts. 
 - [Python for Machine Learning](/python-machine-learning): Series of scripts demonstrating several machine learning techniques.
+- [Python](/python-scripts): Your run off the mill everyday use scripts demonstrating basic concepts.  
 
 ## Other Resources:
 - Python Pandas/Numpy Cheat Sheet: Selection of interesting tools and tricks. By no means comprehensive but a good way to refresh concepts. 
