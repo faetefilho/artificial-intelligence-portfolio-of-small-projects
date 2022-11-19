@@ -30,6 +30,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Game Developement with A.I. Integration](/rocket-booster-sandbox): A simple 3D game developed using Unit3D and coded on C# (.net) with two basic levels. This is a sandbox for testing A.I. integration using different techniques. Compiled for WebGL. 
 - [Java](/java): Collection of well commented programs written in Java
 - [C++14](/cpp14): Collection of C++ files and headers for several programs to demonstrate key concepts. 
+- [Python for Machine Learning](/python-machine-learning): Series of scripts demonstrating several machine learning techniques.
 
 ## Other Resources:
 - Python Pandas/Numpy Cheat Sheet: Selection of interesting tools and tricks. By no means comprehensive but a good way to refresh concepts. 
