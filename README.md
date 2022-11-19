@@ -29,7 +29,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Futures market algorithmic trading system](/algo-trading-system): This quite simple algo was developed in TradeStation EasyLanguage to trade Wheat futures 420 minutes time frame. It was developed in 2017 using walk-forward and monte carlo techniques, incubate in 2018, live for 2019-2020 and retired in 2021 when it hit its pre defined stop/retirement point.
 - [Game Developement with A.I. Integration](/rocket-booster-sandbox): A simple 3D game developed using Unit3D and coded on C# (.net) with two basic levels. This is a sandbox for testing A.I. integration using different techniques. Compiled for WebGL. 
 - [Java](/java): Collection of well commented programs written in Java
-- [C++14](/cpp14): Collection of C++ files and headers for several programs to demonstrate key concepts. 
+- [C++14](/portfolio/cpp14): Collection of C++ files and headers for several programs to demonstrate key concepts. 
 - [Python for Machine Learning](/python-machine-learning): Series of scripts demonstrating several machine learning techniques.
 - [Python](/python-scripts): Your run off the mill everyday use scripts demonstrating basic concepts.  
 
