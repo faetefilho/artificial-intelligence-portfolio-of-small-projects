@@ -3,7 +3,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 
 - [Deep Artificial Neural Network for Regression](/portfolio/deep-ann-for-regression/deep_ann_for_regression.ipynb): This application focuses on ANN for determining housing prices on a large dataset. The ANN can be easily improved/modified for deeper and wider configuration.
 - [Object detection with R-CNN](/portfolio/R-CNN-object-detection/R_CNN_object_detection.ipynb): This is the region proposal based CNN to identify/localize objects within an image. Uses VGG16
-- [Anomaly detection of credit card transactions using autoencoders](/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
+- [Anomaly detection of credit card transactions using autoencoders](portfolio/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
 ): We are trying to differentiate between normal and abnormal credit card transactions. The reconstruction error scores toguether with threshold are used to help us identify an anomaly. 
 - [Multiple Linear Regression with SKLearn](/portfolio/multiple-linear-regression): Exploratory data analysis and linear regression on a dataset with multiple columns (numerical/categorical).
 - [Telecom Customers Churn Prediction](/portfolio/machine-learning-classification/): Various classification algorithms are tested for this case study such as logistic regression, support vector machine, random forest, k-nearest neighbour and naive bayes. Performance comparison is evaluated for all five models.
