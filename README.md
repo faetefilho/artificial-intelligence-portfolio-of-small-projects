@@ -8,7 +8,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Multiple Linear Regression with SKLearn](/portfolio/multiple-linear-regression): Exploratory data analysis and linear regression on a dataset with multiple columns (numerical/categorical).
 - [Telecom Customers Churn Prediction](/portfolio/machine-learning-classification/): Various classification algorithms are tested for this case study such as logistic regression, support vector machine, random forest, k-nearest neighbour and naive bayes. Performance comparison is evaluated for all five models.
 - [Credit Card Default Prediction](/portfolio/credit-card-default-prediction/credit-card-default-prediction-with-xgboost.ipynb): The technique used in this application is XGBoost algorithm.
-[Cardiovascular Disease Prediction](/portfolio/cardiovascular-disease-prediction/cardiovascular-disease-detection.ipynb): Detect the presence or absence of cardiovascular disease in person based on several given features. First half of notebook uses XGBoost module.
+- [Cardiovascular Disease Prediction](/portfolio/cardiovascular-disease-prediction/cardiovascular-disease-detection.ipynb): Detect the presence or absence of cardiovascular disease in person based on several given features. First half of notebook uses XGBoost module.
 
 ## Natural Language Processing
 - [Text Summarization with Transformers](/portfolio/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
