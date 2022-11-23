@@ -19,6 +19,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 ## Computer Vision
 - [Simple ANN with PyTorch](/portfolio/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
 - [Object detection with YOLOv4](/portfolio/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
+- [Image Classification With PyTorch (aka Misha detector)](/portfolio/image-classification-pytorch/cnn_for_real_world_image_classification.ipynb): This artificial intelligence based application uses a NVIDIA Tesla T4 (16GDDR6) GPU to train a convolutional neural network to, among other things, identify/classify the most adorable dog, Misha. 
 
 ## AWS SageMaker
 - [Linear Learner](/portfolio/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programatically on AWS. 
