@@ -16,7 +16,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Object detection with YOLOv4](/portfolio/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 - [Image Classification With PyTorch (aka Misha detector)](/portfolio/image-classification-pytorch/cnn_for_real_world_image_classification.ipynb): This artificial intelligence based application uses a NVIDIA Tesla T4 (16GDDR6) GPU to train a convolutional neural network to, among other things, identify/classify the most adorable dog, Misha. 
 
-## AWS SageMaker
+## AWS SageMaker (Machine Learning)
 - [Linear Learner](/portfolio/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programatically on AWS. 
 - [Multiple Linear Regression with XGBoost](/portfolio/mlr-with-sklearn): Determine life expectancy based on a number of features with a sizeable number of missing features. This uses SKlearn and XGBoost algorithm.
 - [XGBoost with Amazon SageMaker](/portfolio/xgboost-with-sagemaker/): Exploratory data analysis, model training, and deployment to an endpoint, and inference. This dataset contains missing data.  
