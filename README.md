@@ -10,6 +10,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Credit Card Default Prediction](/portfolio/credit-card-default-prediction/credit-card-default-prediction-with-xgboost.ipynb): The technique used in this application is XGBoost algorithm.
 - [Cardiovascular Disease Prediction](/portfolio/cardiovascular-disease-prediction/cardiovascular-disease-detection.ipynb): Detect the presence or absence of cardiovascular disease in person based on several given features. First half of notebook uses XGBoost module.
 - [Kyphosis classification](/portfolio/k-nearest-neighbors/knn-for-kyphosis-disease-classification.ipynb): Classification application using K nearest neighbors.
+- [Diabetes Classification](/portfolio/autogluon-for-classification/diabetes-classification.ipynb): An AutoGluon based ML classifier model to predict diabetes in patients.
 
 ## Computer Vision
 - [Simple ANN with PyTorch](/portfolio/simple-ann-with-pytorch): A simple ANN using Pytorch module for regression. 
