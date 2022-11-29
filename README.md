@@ -43,6 +43,7 @@ This is a collection of small projects covering different topics in A.I. and M.L
 - [Game Developement with A.I. Integration](/portfolio/rocket-booster-sandbox): A simple 3D game developed using Unit3D and coded on C# (.net) with two basic levels. This is a sandbox for testing A.I. integration using different techniques. Compiled for WebGL. 
 - [Java](/portfolio/java): Collection of well commented programs written in Java
 - [C++14](/portfolio/cpp14): Collection of C++ files and headers for several programs to demonstrate key concepts. 
+- [C#](/portfolio/csharp): Scripts covering different topics within Unity and Virtual Reality software development.
 - [Python for Machine Learning](/portfolio/python-machine-learning): Series of scripts demonstrating several machine learning techniques.
 - [Python](/portfolio/python-scripts): Your run off the mill everyday use scripts demonstrating basic concepts.  
 
