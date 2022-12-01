@@ -26,6 +26,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Cardiovascular Disease Prediction](/portfolio/cardiovascular-disease-prediction/cardiovascular-disease-detection.ipynb): Detect the presence or absence of cardiovascular disease in a person based on several given features. We use both python and AWS XGBoost algos.
 - [Kyphosis Classification with K-nearest Neighbors](/portfolio/k-nearest-neighbors/knn-for-kyphosis-disease-classification.ipynb): Application to medical field using python modules and AWS endpoint for classification. Additional M.L. techniques are used towards the end of the notebook for comparison. 
 - [AutoGluon for Regression](/portfolio/autogluon-for-regression/autogluon-for-regression.ipynb): This is the library behind SageMaker Autopilot. It allows for quick prototyping of AI/ML models using a few simple lines of code. Autogluon works with text, image and tabular datasets. 
+- [Lambda, Steps Functions and Pipelines](/portfolio/lambda-step-pipelines): Serverless event driven lambdas, state machine diagrams and continuous integration & continuous delivery (CI/CD) pipelines.
 
 
 ## Power & Energy
