@@ -1,4 +1,3 @@
-// Fig. 10.10: Array.h
 // Array class definition with overloaded operators.
 #ifndef ARRAY_H
 #define ARRAY_H
@@ -6,6 +5,7 @@
 #include <iostream>
 
 class Array {
+    //
     friend std::ostream& operator<<(std::ostream&, const Array&);
     friend std::istream& operator>>(std::istream&, Array&);
 

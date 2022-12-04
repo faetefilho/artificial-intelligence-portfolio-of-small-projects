@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     Array integers1{7}; // seven-element Array   
-    Array integers2; // 10-element Array by default
+    Array integers2; // 10-element Array by default,
 
     // print integers1 size and contents, array overload stream op used here
     cout << "Size of Array integers1 is " << integers1.getSize()
