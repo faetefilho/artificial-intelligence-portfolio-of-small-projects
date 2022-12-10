@@ -1,0 +1,5 @@
+compile
+javac --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml *.java
+
+Run
+java --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml DrawLines
