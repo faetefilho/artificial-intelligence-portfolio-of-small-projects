@@ -30,7 +30,7 @@ public class DrawShapesController {
         int step = 10;
 
         //draw 10 overlapping shapes
-        for (int i = 0; 1 < 10; i++){
+        for (int i = 0; i < 10; i++){
             switch (choice){
                 case "Rectangles":
                     gc.strokeRect(10 + i * step, 10 + i * step, 90 + i * step, 90 + i * step);
