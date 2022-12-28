@@ -117,6 +117,9 @@ plt.show()
 
 # create gaussian kernel using openCV, sum will equal 1
 cv2.getGaussianKernel(5, 1)
+G = cv2.getGaussianKernel
+img_S = cv2.filter2D(img,-1,G)
+
 
 
 
