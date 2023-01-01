@@ -17,7 +17,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Image Classification With PyTorch (aka Misha detector)](/portfolio/image-classification-pytorch/cnn_for_real_world_image_classification.ipynb): This artificial intelligence based application uses a NVIDIA Tesla T4 (16GDDR6) GPU to train a convolutional neural network to, among other things, identify/classify the most adorable dog, Misha. 
 - [Object Detection with R-CNN](/portfolio/R-CNN-object-detection/R_CNN_object_detection.ipynb): This is the region proposal based CNN to identify/localize objects within an image. Uses VGG16
 - [Transfer Learning Applications for Images](/portfolio/transfer-learning-for-image-classification/age_and_gender_prediction.ipynb): Gender and age prediction with VGG16 pretrained. Also in this folder are classification with VGG16 & ResNet18 and facial key point detection (2D/3D).
-- [Other Applications](/portfolio/other-computer-vision-apps/other-computer-vision-apps.py): Panorama Stitching.
+- [Other Applications](/portfolio/other-computer-vision-apps/other-computer-vision-apps.py): Panorama Stitching, yolo object & face detection.
 
 ## AWS SageMaker (Machine Learning)
 - [Linear Learner](/portfolio/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programmatically on AWS. 
