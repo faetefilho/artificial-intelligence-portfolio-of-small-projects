@@ -41,6 +41,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Text Summarization with Transformers](/portfolio/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
 - [Sentiment Analysis (Transformers)](/portfolio/sentiment_analysis_with_RoBERTa_large/sentiment_analysis_with_RoBERTa_large.ipynb): Analyze a number of different techniques to determine sentiment. We look into Allen, Hugginface and OpenAI models for a number of easy and challenging tasks within sentiment analysis.
 - [Sentiment Analysis on Twitter](/portfolio/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thousands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
+- [GPT model for text completion](): In this application we go through the process of building a near human GPT text completion model. We will take a look at OpenAI APIs.
 
 ## Software Development:
 - [Futures market algorithmic trading system](/portfolio/algo-trading-system): This quite simple algo was developed in TradeStation EasyLanguage to trade Wheat futures 420 minutes time frame. It was developed in 2017 using walk-forward and Monte Carlo techniques, incubated in 2018, live for 2019-2020 and retired in 2021 when it hit its pre defined stop/retirement point.
