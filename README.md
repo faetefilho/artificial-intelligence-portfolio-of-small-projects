@@ -41,7 +41,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Text Summarization with Transformers](/portfolio/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
 - [Sentiment Analysis (Transformers)](/portfolio/sentiment_analysis_with_RoBERTa_large/sentiment_analysis_with_RoBERTa_large.ipynb): Analyze a number of different techniques to determine sentiment. We look into Allen, Hugginface and OpenAI models for a number of easy and challenging tasks within sentiment analysis.
 - [Sentiment Analysis on Twitter](/portfolio/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thousands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
-- [GPT model for text completion](): In this application we go through the process of building a near human GPT text completion model. We will take a look at OpenAI APIs.
+- [GPT-2, GPT-3 and OpenAI](/portfolio/nlp-ner-with-spacy/gpt2-gpt3.py): Several applications using openAI API and GPT2 and GPT3 engines (grammar correction, text completion, translation, instructions, programming translation, tweet classifier, summarization, and parsing unstructure data)
 - [Name Entity Recognition and Word Similarity](/portfolio/nlp-ner-with-spacy/nlp-ner-with-spacy.py): This application uses spaCy to perform tasks of NER and measure word similarity between the vectors/words.
 
 
