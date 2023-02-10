@@ -172,7 +172,6 @@ txt = """" Cleopatra wasn't actually Egyptian!
          She was a descendant of Alexander the Great's
          Macedonian general Ptolemy"""
          
-doc = nlp(txt)
 
 # Init the matcher with the shared vocab
 matcher = Matcher(nlp.vocab)
@@ -182,14 +181,73 @@ matcher.add("TITLED_PERSON", [pattern])
 
 
 
+# Word Vector and semantic similarity
+doc1 = nlp("What a lukeworm sentiment.")
+doc2 = nlp("What a short sentence.")
+
+doc1.similarity(doc2)
+# All doc, token and span objects have this similarity method
+
+# can compare to each other
+doc1[0:2].similarity(doc1[3])
+
+# The similarity is calculated using word vectors, which are 
+# multi-dimensional mathematical representations of words
+array = doc1[0].vector
+
+array.shape
+
+array[:10]
+
+nlp.pipe_names
 
 
+# add pipeline that adds the conqueror's name as an entity
+from spacy.language import Language
+#from spacy.matcher import Matcher
+from spacy.util import filter_spans
 
+#nlp = spacy.load("en_core_web_sm")
 
+@Language.component("titled_person")
+def titled_person(doc):
+    pattern = [
+        {"IS_ALPHA": True, "IS_TITLE": True},
+        {"IS_STOP": True},
+        {"IS_ALPHA": True, "IS_TITLE": True},
+    ]
+    # Create the matcher
+    matcher = Matcher(nlp.vocab)
+    # Add the pattern
+    matcher.add("TITLED_PERSON", [pattern])
 
+    matches = matcher(doc)
+    matched_spans = [Span(doc, start, end, label="PERSON") for _, start, end in matches]
 
+    # Filter the entities for potential overlap
+    filtered_matches = filter_spans(list(doc.ents) + matched_spans)
+    # Add the matched spans to doc's entities
+    doc.ents = filtered_matches
 
+    return doc
 
+nlp.add_pipe("titled_person")
+#nlp.add_pipe("titled_person", first=True)  # Beginning
+#nlp.add_pipe("titled_person", after="parser")  # After parser
+#nlp.add_pipe("titled_person", before="tagger") # Before POS tagger
+
+# lets test it now
+txt = """Cleopatra wasn't actually Egyptian! 
+         As far as historians can tell, Egypt's 
+         famous femme fatal was actually Greek!. 
+         She was a descendant of Alexander the Great's
+         Macedonian general Ptolemy"""
+
+doc = nlp(txt)
+
+nlp.pipe_names
+
+doc.ents
 
 
 
