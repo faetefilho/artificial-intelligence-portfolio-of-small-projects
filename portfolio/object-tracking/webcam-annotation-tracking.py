@@ -5,6 +5,7 @@ import cv2
 import imutils
 # pip install imutils
 
+import numpy as np
 TrDict = {'csrt': cv2.TrackerCSRT_create,
           'kcf': cv2.TrackerKCF_create,
           'boosting': cv2.legacy.TrackerBoosting_create,
@@ -34,6 +35,8 @@ print(bb)
 # initialize tracker
 tracker.init(frame, bb)
 
+frameNumber = 2
+baseDir = r'C:\Users\filhof17\Desktop'
 while True:
     # read the next frame, if there is frame ret returns true
     ret, frame = video.read()
