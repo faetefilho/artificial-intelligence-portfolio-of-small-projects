@@ -16,6 +16,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Object Detection with YOLOv4](/portfolio/object-detection-with-yolov4/YOLO_object_detection.ipynb): Uses YOLOv4 to classify and localize buses and trucks. Builds upon available code from other GitHub repositories.
 - [Image Classification With PyTorch (aka Misha detector)](/portfolio/image-classification-pytorch/cnn_for_real_world_image_classification.ipynb): This artificial intelligence based application uses a NVIDIA Tesla T4 (16GDDR6) GPU to train a convolutional neural network to, among other things, identify/classify the most adorable dog, Misha. 
 - [Object Detection with R-CNN](/portfolio/R-CNN-object-detection/R_CNN_object_detection.ipynb): This is the region proposal based CNN to identify/localize objects within an image. Uses VGG16
+- [Object Tracking with openCV](/portfolio/object-tracking): single and multiple object tracking using openCV.
 - [Transfer Learning Applications for Images](/portfolio/transfer-learning-for-image-classification/age_and_gender_prediction.ipynb): Gender and age prediction with VGG16 pretrained. Also in this folder are classification with VGG16 & ResNet18 and facial key point detection (2D/3D).
 - [Image Segmentation](/portfolio/image-segmentation/image-segmentation.py): Semantic segmentation with U-Net and instance segmentation with Mask R-CNN.
 - [Other Applications](/portfolio/other-computer-vision-apps/other-computer-vision-apps.py): Panorama Stitching, yolo object & face detection.
@@ -38,7 +39,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Neural Networks for converter control (to be added)]: An ANN application to control smart grid multilevel inverters with varying input voltages.
 
 ## Natural Language Processing
-- [Text Summarization with Transformers](/portfolio/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file
+- [Text Summarization with Transformers](/portfolio/text-summarization-with-transformers): An application of text-to-text transfer transformer (T5) to summarize a sample text file.
 - [Sentiment Analysis (Transformers)](/portfolio/sentiment_analysis_with_RoBERTa_large/sentiment_analysis_with_RoBERTa_large.ipynb): Analyze a number of different techniques to determine sentiment. We look into Allen, Hugginface and OpenAI models for a number of easy and challenging tasks within sentiment analysis.
 - [Sentiment Analysis on Twitter](/portfolio/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thousands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
 - [GPT-2, GPT-3 and OpenAI](/portfolio/nlp-ner-with-spacy/gpt2-gpt3.py): Several applications using openAI API and GPT2 and GPT3 engines (grammar correction, text completion, translation, instructions, programming translation, tweet classifier, summarization, and parsing unstructure data)
