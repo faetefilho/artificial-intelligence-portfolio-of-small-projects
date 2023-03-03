@@ -20,6 +20,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Transfer Learning Applications for Images](/portfolio/transfer-learning-for-image-classification/age_and_gender_prediction.ipynb): Gender and age prediction with VGG16 pretrained. Also in this folder are classification with VGG16 & ResNet18 and facial key point detection (2D/3D).
 - [Image Segmentation](/portfolio/image-segmentation/image-segmentation.py): Semantic segmentation with U-Net and instance segmentation with Mask R-CNN.
 - [Other Applications](/portfolio/other-computer-vision-apps/other-computer-vision-apps.py): Panorama Stitching, yolo object & face detection.
+- [Multi-object instance segmentation and other applications](/portfolio/multi-object-instance-segmentation-and-other-applications): Detectron2 using google open images dataset. 
 
 ## AWS SageMaker (Machine Learning)
 - [Linear Learner](/portfolio/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programmatically on AWS. 
