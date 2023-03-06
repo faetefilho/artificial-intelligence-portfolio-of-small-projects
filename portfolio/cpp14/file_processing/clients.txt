@@ -1,2 +1,8 @@
 100 john 1000
 200 anna 2000
+300 miguel -200
+400 jesus -1000
+500 waka 400
+600 broke 0
+700 superBroke 0
+800 babooya 1000
