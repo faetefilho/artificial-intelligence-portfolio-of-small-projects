@@ -20,7 +20,8 @@ int main() {
     integers.push_back(2);                            
     integers.push_back(3);                            
     integers.push_back(4);                            
-
+    // capacity is doubled each time it needs to be expanded
+    
     cout << "\nThe size of integers is: " << integers.size()
         << "\nThe capacity of integers is: " << integers.capacity();
     cout << "\n\nOutput built-in array using pointer notation: ";
@@ -28,6 +29,12 @@ int main() {
     int values[SIZE]{1, 2, 3, 4, 5, 6}; // initialize values
 
     // display array using pointer notation
+    // cbegin and cend are in <iterator> and return const_iterator
+    // cbegin returns a const_iterator to the beginning of the container
+    cout << "\nvalue in cbegin(values): " << cbegin(values) << "\n\n";
+
+    // prt points to the first element of values
+    // ++ptr increments ptr to point to the next element, by the size of the type of the element, int is 4 bytes
     for (const int* ptr = cbegin(values); ptr != cend(values); ++ptr) {
         cout << *ptr << ' ';
     }
