@@ -45,6 +45,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Sentiment Analysis on Twitter](/portfolio/sentiment-analysis/Twitter_Sentiment_Analysis.ipynb): We look at a couple thousands of tweets and test Random Forests (RF), Support Vector Machine (SVM), and Naive Bayes (NB) to try to predict if a tweet is likely to contain Fake News.
 - [GPT-2, GPT-3 and OpenAI](/portfolio/nlp-ner-with-spacy/gpt2-gpt3.py): Several applications using openAI API and GPT2 and GPT3 engines (grammar correction, text completion, translation, instructions, programming translation, tweet classifier, summarization, and parsing unstructure data)
 - [Name Entity Recognition and Word Similarity](/portfolio/nlp-ner-with-spacy/nlp-ner-with-spacy.py): This application uses spaCy to perform tasks of NER and measure word similarity between the vectors/words.
+- [AI Chatbot with web interface using latest OpenAI chatgpt api](/portfolio/nlp-chatbot): This simple program demonstrates how to create a AI chatbot with a pretty interface using openAI latest chatgpt api. 
 
 
 ## Software Development:
