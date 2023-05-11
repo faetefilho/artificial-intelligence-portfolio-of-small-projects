@@ -57,6 +57,9 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Python for Machine Learning](/portfolio/python-machine-learning): Series of scripts demonstrating several machine learning techniques.
 - [Python](/portfolio/python-scripts): Your run off the mill everyday use scripts demonstrating basic concepts.  
 
+## Embedded Software (STM32):
+- [PWM peripheral](/portfolio/embedded-software/timer_PWM_LED): Dimmer of onboard microcontroller LED using PWM output on pin PD12 of Discovery board.
+
 ## Other Resources:
 - [Python Pandas/Numpy Cheat Sheet](/portfolio/python-numpy-pandas-cheatsheet/python-numpy-pandas-cheatsheet.ipynb): Selection of interesting tools and tricks. By no means comprehensive but a good way to refresh concepts. 
 - [Coding Interview Questions](/portfolio/coding-interview-questions/coding-interview-questions.ipynb): Those have been gathered by me and other students/friends/coworkers over the time and added here. Only actual code interview questions are allowed in this notebook. 
