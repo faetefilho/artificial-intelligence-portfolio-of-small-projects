@@ -59,6 +59,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 
 ## Embedded Software (STM32):
 - [PWM peripheral](/portfolio/embedded-software/timer_PWM_LED): Dimmer of onboard microcontroller LED using PWM output on pin PD12 of Discovery board.
+- [GPIO peripheral](/portfolio/embedded-software/christmas-tree): Core header files for for stm32, gpio driver header files, and gpio driver APIs are built from scratch. Later on, they are tested with a simple application to toggle all 4 LEDs connected to port D.
 
 ## Other Resources:
 - [Python Pandas/Numpy Cheat Sheet](/portfolio/python-numpy-pandas-cheatsheet/python-numpy-pandas-cheatsheet.ipynb): Selection of interesting tools and tricks. By no means comprehensive but a good way to refresh concepts. 
