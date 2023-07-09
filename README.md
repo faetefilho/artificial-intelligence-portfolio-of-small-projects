@@ -22,6 +22,9 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Other Applications](/portfolio/other-computer-vision-apps): Panorama Stitching, yolo object & face detection, image colorization.
 - [Multi-object instance segmentation and other applications](/portfolio/multi-object-instance-segmentation-and-other-applications): Detectron2 using google open images dataset. 
 
+## Reinforcement Learning
+- [Sandbox Learning Environment](/portfolio/reinforcement-learning): Playground to test a number of different problems and learning algorithms with OpenAI gym. 
+
 ## AWS SageMaker (Machine Learning)
 - [Linear Learner](/portfolio/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programmatically on AWS. 
 - [Multiple Linear Regression with XGBoost](/portfolio/mlr-with-sklearn): Determine life expectancy based on a number of features with a sizable number of missing features. This uses SKlearn and XGBoost algorithm.
