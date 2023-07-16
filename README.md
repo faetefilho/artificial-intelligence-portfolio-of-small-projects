@@ -24,6 +24,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 
 ## Reinforcement Learning
 - [Sandbox Learning Environment](/portfolio/reinforcement-learning): Playground to test a number of different problems and learning algorithms with OpenAI gym. 
+- [Create a RL environment](/portfolio/reinforcement-learning): Create a custom environment to train and test your agent.
 
 ## AWS SageMaker (Machine Learning)
 - [Linear Learner](/portfolio/linear-learner): This Python script creates S3 bucket, uploads data, prepare data, create model, train and make predictions. All tasks are performed programmatically on AWS. 

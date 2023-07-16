@@ -1,0 +1,7 @@
+David Silver RL Course
+
+https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver
+
+Reinforcement Learning an Introduction, Richard Sutton and Andrew Barto
+
+http://incompleteideas.net/book/the-book-2nd.html
