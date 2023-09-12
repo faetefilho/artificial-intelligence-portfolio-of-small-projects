@@ -1,6 +1,8 @@
 # Artificial Intelligence and Machine Learning - A Compilation of Examples & Frameworks
 This is a collection of projects covering different topics in A.I., M.L. and software engineering to be used as a training resource, template and/or framework. Some of the projects were collected from online resources and adapted, and some are original projects:
 
+## Data Science and A.I.
+- [EDA on housing data to investigate trends](/portfolio/data-science-housing/data-science-on-housing-augusta-for-repo.ipynb): Exploratory data analysis on a dataset covering 2019 to 2023 to look at the trends in housing market for North Augusta, Evans and Martinez. 
 - [Deep Artificial Neural Network for Regression](/portfolio/deep-ann-for-regression/deep_ann_for_regression.ipynb): This application focuses on ANN for determining housing prices on a large dataset. The ANN can be easily improved/modified for deeper and wider configuration.
 - [Anomaly Detection of Credit Card Transactions Using Autoencoders](portfolio/anomaly-detection-of-credit-card-transactions-using-autoencoders/anomaly_detection_credit_card_transaction_autoencoder.ipynb
 ): We are trying to differentiate between normal and abnormal credit card transactions. The reconstruction error scores together with the threshold are used to help us identify an anomaly. 
