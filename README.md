@@ -57,6 +57,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 ## Software Development:
 - [Futures market algorithmic trading system](/portfolio/algo-trading-system): This quite simple algo was developed in TradeStation EasyLanguage to trade Wheat futures 420 minutes time frame. It was developed in 2017 using walk-forward and Monte Carlo techniques, incubated in 2018, live for 2019-2020 and retired in 2021 when it hit its pre defined stop/retirement point.
 - [Game Development with A.I. Integration](/portfolio/rocket-booster-sandbox): A simple 3D game developed using Unit3D and coded on C# (.net) with two basic levels. This is a sandbox for testing A.I. integration using different techniques. Compiled for WebGL. 
+- [Blockchain](/portfolio/blockchain/blockchain.ipynb): Demonstration of basic concepts behind blockchain. Mining feature to be implemented soon. 
 - [Java](/portfolio/java): Collection of well commented programs written in Java
 - [C++14](/portfolio/cpp14): Collection of C++ files and headers for several programs to demonstrate key concepts. 
 - [C#](/portfolio/csharp): Scripts covering different topics within Unity and Virtual Reality software development.
