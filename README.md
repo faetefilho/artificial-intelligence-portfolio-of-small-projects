@@ -60,6 +60,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Blockchain](/portfolio/blockchain/blockchain.ipynb): Demonstration of basic concepts behind blockchain. Mining feature to be implemented soon. 
 - [Java](/portfolio/java): Collection of well commented programs written in Java
 - [C++14](/portfolio/cpp14): Collection of C++ files and headers for several programs to demonstrate key concepts. 
+- [C++20](/portfolio/cpp20): Demo excel application with user interface, save/load, and data visualization capabilities.
 - [C#](/portfolio/csharp): Scripts covering different topics within Unity and Virtual Reality software development.
 - [Python for Machine Learning](/portfolio/python-machine-learning): Series of scripts demonstrating several machine learning techniques.
 - [Python](/portfolio/python-scripts): Your run off the mill everyday use scripts demonstrating basic concepts.  
