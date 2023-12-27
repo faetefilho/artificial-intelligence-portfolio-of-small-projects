@@ -23,6 +23,7 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Image Segmentation](/portfolio/image-segmentation/image-segmentation.py): Semantic segmentation with U-Net and instance segmentation with Mask R-CNN.
 - [Other Applications](/portfolio/other-computer-vision-apps): Panorama Stitching, yolo object & face detection, image colorization.
 - [Multi-object instance segmentation and other applications](/portfolio/multi-object-instance-segmentation-and-other-applications): Detectron2 using google open images dataset. 
+- [Deep learning with custom images & augumentation](/portfolio/deep-learning-with-custom-images/deep-learning-with-custom-images.ipynb): Convolutional neural network is used with a more realistic dataset and data augumentation to increase the size of the dataset. images have various sizes and a number of transformations are used to increase dataset.
 
 ## Reinforcement Learning
 - [Sandbox Learning Environment](/portfolio/reinforcement-learning): Playground to test a number of different problems and learning algorithms with OpenAI gym. 
