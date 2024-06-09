@@ -21,9 +21,10 @@ This is a collection of projects covering different topics in A.I., M.L. and sof
 - [Object Tracking with openCV](/portfolio/object-tracking): single and multiple object tracking using openCV.
 - [Transfer Learning Applications for Images](/portfolio/transfer-learning-for-image-classification/age_and_gender_prediction.ipynb): Gender and age prediction with VGG16 pretrained. Also in this folder are classification with VGG16 & ResNet18 and facial key point detection (2D/3D).
 - [Image Segmentation](/portfolio/image-segmentation/image-segmentation.py): Semantic segmentation with U-Net and instance segmentation with Mask R-CNN.
-- [Other Applications](/portfolio/other-computer-vision-apps): Panorama Stitching, yolo object & face detection, image colorization.
 - [Multi-object instance segmentation and other applications](/portfolio/multi-object-instance-segmentation-and-other-applications): Detectron2 using google open images dataset. 
 - [Deep learning with custom images & augumentation](/portfolio/deep-learning-on-custom-images/deep-learning-on-custom-images.ipynb): Convolutional neural network is used with a more realistic dataset and data augumentation to increase the size of the dataset. images have various sizes and a number of transformations are used to increase dataset.
+- [Timelapse from webcam snapshots](/portfolio/vision-timelapse): Python script utilizing OpenCV and PIL libraries to capture snapshots from a webcam at regular intervals over several days. Each image was timestamped and the collected snapshots were compiled to produce a video timelapse of the landscape.
+- [Other Applications](/portfolio/other-computer-vision-apps): Panorama Stitching, yolo object & face detection, image colorization.
 
 ## Reinforcement Learning
 - [Sandbox Learning Environment](/portfolio/reinforcement-learning): Playground to test a number of different problems and learning algorithms with OpenAI gym. 
